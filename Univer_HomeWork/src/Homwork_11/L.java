@@ -1,0 +1,12 @@
+package Homwork_11;
+import java.awt.*;
+public class L extends CurvedTetromino {
+	L(int x, int y, Color color) {
+		super(x, y, color);
+	}
+
+	@Override
+	public void initPoints() {
+		this.points = new Point[] { new Point(1, 0), new Point(-1, 1), new Point(-1, 0) };
+	}
+}
